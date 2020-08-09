@@ -1,0 +1,13 @@
+@value baseBlack from '../../../styles/Colours.css';
+
+.container {
+  display: flex;
+  margin: 0.5rem;
+}
+
+.button {
+  width: 12rem;
+  cursor: pointer;
+  font-size: 2rem;
+  box-shadow: 0 0.2rem 0.5rem baseBlack;
+}

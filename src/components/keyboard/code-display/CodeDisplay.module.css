@@ -1,0 +1,18 @@
+@value tertiary from '../../../styles/Colours.css';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  margin-top: 1rem;
+}
+
+.keyboardCodeContainer, .attemptsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+  font-size: 1.5rem;
+  background-color: tertiary;
+  margin: 0.1rem 0;
+}

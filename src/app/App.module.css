@@ -1,0 +1,28 @@
+@value primary, baseGreen, baseRed from '../styles/Colours.css';
+
+.App {
+  text-align: center;
+  background-color: primary;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.button {
+  composes: button from '../components/keyboard/keyboard-button/KeyboardButton.module.css';
+  margin-top: 1rem;
+}
+
+.titleUnlocked {
+  color: baseGreen;
+}
+
+.titleLocked, .tooManyAttempts {
+  color: baseRed;
+}
+
+
