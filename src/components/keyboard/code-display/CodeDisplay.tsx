@@ -18,7 +18,7 @@ const CodeDisplay: React.FC<ICodeDisplayProps> = ({
   <Container style={styles.container}>
     <Container style={styles.keyboardCodeContainer}>
       <Copy copy="KEYBOARD" />
-      <Copy copy={copy} />
+      <Copy ariaLabel="keyboard" copy={copy} />
     </Container>
     <Container style={styles.attemptsContainer}>
       <Copy copy="ATTEMPTS LEFT" />

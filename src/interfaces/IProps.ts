@@ -27,6 +27,7 @@ export interface IInputProps {
 export interface ICopy {
   copy: string;
   style?: string;
+  ariaLabel?: string;
 }
 
 export interface IKeyboardProps {
